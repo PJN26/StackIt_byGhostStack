@@ -310,12 +310,8 @@ StackIT/
 - [ ] EMAIL_PASS (Gmail app password)
 - [ ] DEEPSEEK_API_KEY (from DeepSeek platform)
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Support
 
-For support, email support@stackit.com or join our community discussions.
+For support, email goststack87@gmail.com or join our community discussions.
 
 ---
