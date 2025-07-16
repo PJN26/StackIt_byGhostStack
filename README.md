@@ -94,31 +94,7 @@ cp .env.example .env
 Create a `.env` file in the backend directory with the following variables:
 
 ```env
-# Server Configuration
-PORT=5000
-NODE_ENV=development
-CORS_ORIGIN=http://localhost:3000
 
-# Database Configuration
-MONGODB_URI=mongodb://localhost:27017/stackit
-# For MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/stackit
-
-# JWT Configuration
-JWT_SECRET=your_super_secure_jwt_secret_here
-JWT_EXPIRY=15m
-JWT_REFRESH_SECRET=your_super_secure_refresh_secret_here
-JWT_REFRESH_EXPIRY=30d
-
-# Email Configuration (Gmail)
-EMAIL_SERVICE=smtp
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password_here
-EMAIL_FROM=StackIt <your_email@gmail.com>
-
-# DeepSeek AI Configuration
-DEEPSEEK_API_KEY=your_deepseek_api_key_here
 ```
 
 #### Email Setup Instructions
